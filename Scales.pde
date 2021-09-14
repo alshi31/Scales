@@ -33,6 +33,7 @@ void scale(int x, int y) {
   strokeWeight(1);
   fill(231, 232, 178);
   ellipse(13+x, 20+y, 9, 9);
+  rect(10+x, 17+y, 5, 5);
   fill(247, 168, 168);
   ellipse(20.5+x, 5.5+y, 3.5, 3.5);
 }
