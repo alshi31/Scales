@@ -5,11 +5,11 @@ void setup()
   noLoop(); //stops the draw() function from repeating
 }
 void draw() {
-  for (int x = 0; x <= 500; x += 25)
+  for (int i = 0; i <= 500; i += 25)
   {
-    for (int y = 0; y <= 500; y += 25)
+    for (int j = 0; j <= 500; j += 25)
     {
-      scale(x, y);
+      scale(i, j);
     }
     System.out.println();
   }
@@ -26,6 +26,6 @@ void scale(int x, int y) {
   strokeWeight(1);
   fill(231, 232, 178);
   ellipse(13+x, 20+y, 9, 9);
-  fill(247,168,102);
+  fill(247,168,168);
   ellipse(20.5+x,5.5+y,3.5,3.5);
 }
